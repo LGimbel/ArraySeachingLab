@@ -1,0 +1,4 @@
+all values rounded 100	Linear a	linear b	binary a	binary b
+average time in ns	79	72	72	82
+max time in ns	19400	40600	17200	17500
+min time in ns	          <100	<100	<100	<100

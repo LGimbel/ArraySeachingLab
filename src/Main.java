@@ -26,7 +26,7 @@ public class Main {
         //region searching and timing
         System.out.println("Linear search for array a");
         long startTime = System.nanoTime();
-        myArrayA.linearSearch(3.4);
+        System.out.println(myArrayA.linearSearch(3.4));
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Took " + totalTime + " nanoseconds");
@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Took " + totalTime + " nanoseconds");
         System.out.println("Linear search for array b");
         startTime = System.nanoTime();
-        myArrayB.linearSearch(3.4);
+       System.out.println(myArrayB.linearSearch(3.4));
         endTime = System.nanoTime();
         totalTime = endTime - startTime;
         System.out.println("Took " + totalTime + " nanoseconds");

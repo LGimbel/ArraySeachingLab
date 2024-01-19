@@ -38,7 +38,6 @@ public class Main {
         System.out.println("Took " + totalTime + " nanoseconds");
         System.out.println("Linear search for array b");
         startTime = System.nanoTime();
-
        System.out.println(myArrayB.linearSearch(3.4));
         endTime = System.nanoTime();
         totalTime = endTime - startTime;
@@ -52,7 +51,7 @@ public class Main {
         //endregion
     }
 }
-//i am using the same array that i made for the homework 1
+//i am using the same array that I made for the homework 1
 class Array{
     private int size;
     private int lastIndex;

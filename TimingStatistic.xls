@@ -3,3 +3,4 @@ average time in ns	79	72	72	82
 max time in ns	19400	40600	17200	17500
 min time in ns	          <100	<100	<100	<100
 steps	5	2	2	3
+done over 10k trials				

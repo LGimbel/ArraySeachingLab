@@ -31,8 +31,6 @@ public class TimingTesting {
         System.out.println("Average time: " + averageTime);
         System.out.println("Max time: " + maxTime);
         System.out.println("Min time: " + minTime);
-
     }
-
 }
 

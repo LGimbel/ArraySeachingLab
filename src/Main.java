@@ -38,6 +38,7 @@ public class Main {
         System.out.println("Took " + totalTime + " nanoseconds");
         System.out.println("Linear search for array b");
         startTime = System.nanoTime();
+
        System.out.println(myArrayB.linearSearch(3.4));
         endTime = System.nanoTime();
         totalTime = endTime - startTime;
